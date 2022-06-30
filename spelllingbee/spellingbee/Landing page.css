@@ -1,0 +1,240 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+.main{
+  width: 100%;
+  background: url(12.PNG);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.navbar{
+  width: 1200px;
+  height: 75px;
+  margin:auto ;
+}
+
+.icon{
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo{
+  color: orange;
+  font-size: 35px;
+  padding left:20px ;
+  float: left;
+  padding-top: 0px;
+}
+
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li{
+  list-style: none;
+  margin-left: 80px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+  color: orange;
+}
+
+.search{
+  width: 330px;
+  float: left;
+  margin-left: 270px ;
+}
+
+.srch{
+  font-family: Times Rew Roman;
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  margin-top: 25px;
+  border: 1px solid orange;
+  color: white;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius:5px ;
+  border-top-left-radius:5px ;
+}
+
+.btn{
+  width: 100px;
+  height: 40px;
+  background: orange;
+  border: 2px solid orange;
+  margin-top: 25px;
+  color: white;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.src:focus{
+outline:none
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+
+.form{
+  width: 250px;
+  height: 380px;
+  background-color: black;
+  background: linear-gradient(rgba(0, 0, 0, 1.0)50%), rgba(0, 0, 0, 1.0)50%;
+  position: absolute;
+  top: 130px;
+  left: 870px;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.form h2{
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: orange;
+  font-size: 22px;
+  background-color: white;
+  border-radius: 10px;
+  margin:2px;
+  padding: 8px;
+}
+
+.form input{
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid orange;
+  border top:none ;
+  border-right: none;
+  border-left: none;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+
+.btnn{
+  width: 240px;
+  height: 30px;
+  background: orange;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+} 
+
+.btnn:hover{
+  background: white;
+  color: orange;
+}
+
+.btnn a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.form .link{
+  font-family: Arial;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.form .link a{
+  text-decoration: none;
+  color: orange;
+}
+
+.liw{
+  padding-top: 15px;
+  padding-bottom:10px;
+  text-align: center;
+  color: white;
+}
+
+.GAMES{
+  margin: 0;
+  padding: ;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3)50%, rgba(0, 0, 0, 0.3)50%), url(11.PNG);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.container{
+  width: 40rem;
+  height: 30rem;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 30px;
+  top: 800px;
+  left: 290px;
+  position: absolute;
+  padding: 10px;
+}
+
+.can{
+  width: 240px;
+  height: 80px;
+  background: orange;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.can:hover{
+  background: white;
+  color: orange;
+}
+.can a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
